@@ -11,7 +11,8 @@ namespace ADO_Insert
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+            //Inserting data here
             StudentInformation information = new StudentInformation();
             Console.WriteLine("Please enter your Roll number: ");
             int rNumber = Convert.ToInt32(Console.ReadLine());
